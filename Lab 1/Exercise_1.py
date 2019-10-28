@@ -1,5 +1,5 @@
-import pymongo as pm #pymongo
-import pprint as pp #pretty print
+import pymongo as pm
+import pprint as pp 
 
 #Here we set the client
 client = pm.MongoClient('bigdatadb.polito.it', ssl=True,
