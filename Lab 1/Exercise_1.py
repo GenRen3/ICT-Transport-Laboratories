@@ -18,5 +18,3 @@ pp.pprint(Bookings_collection.find_one({"city":"Vancouver"}))
 #Here finds the city of Turin in a certain set of time
 Bookings_collection.find( {"city": "Torino"},{"init_time":1, "city":1, "_id":0,
                            "init_date":1})
-
-
