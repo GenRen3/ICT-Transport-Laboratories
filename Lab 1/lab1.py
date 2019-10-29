@@ -4,6 +4,7 @@ import pymongo as pm
 client = pm.MongoClient('bigdatadb.polito.it', ssl=True, authSource = 'carsharing', tlsAllowInvalidCertificates=True)
 db = client['carsharing'] #Choose the database to use
 db.authenticate('ictts', 'Ictts16!')# , mechanism='MONGODB-CR')
+# comment
 
 permanentBook = db['PermanentBookings']
 permanentPark = db['PermanentParkings']
