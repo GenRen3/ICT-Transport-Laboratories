@@ -277,5 +277,5 @@ plt.grid(True, which='minor', axis="x")
 plt.show()
 
 city= city.replace(" ", "")
-#figWeek.savefig(city+'Weeks.pdf')
-#fig.savefig(city+'.pdf')
+figWeek.savefig("/images"+city+'Weeks.pdf')
+fig.savefig("/images"+city+'.pdf')
